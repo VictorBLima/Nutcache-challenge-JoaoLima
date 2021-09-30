@@ -1,0 +1,50 @@
+.table-users {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table-users thead tr th,
+.table-users tbody tr td {
+    text-align: center;
+}
+
+.table-users td,
+.table-users th {    
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.table-users tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.table-users tr:hover {
+	background-color: #ddd;
+}
+
+.table-users th {    
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #0595ac;
+	color: white;
+}
+
+.button-action {    
+    padding: .5em 1em;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+}
+
+.delete {
+    background-color: #d85a4f;
+    border: 1px solid #9e433b;
+}
+
+.update {
+    background-color: #0595ac;
+    border: 1px solid #057283;
+}
